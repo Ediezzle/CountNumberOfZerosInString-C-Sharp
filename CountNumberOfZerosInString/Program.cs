@@ -54,7 +54,7 @@ namespace CountNumberOfZerosInString
 		}
 		static void Main(string[] args)
         {
-			String str = "011001110";
+			string str = "011001110";
 			Console.Write(NumberOfZerosUsingCounter(str) + "\n");
 			Console.WriteLine(NumberOfZerosWithoutUsingCounter(str));
 		}
